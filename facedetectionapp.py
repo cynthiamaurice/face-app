@@ -2,7 +2,7 @@ import cv2
 import streamlit as st
 
 # Load face detection model
-face_cascade = cv2.CascadeClassifier("C:\\Users\\personal\\Desktop\\Deep Learning\\haarcascade_frontalface_default  (2).xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default  (2).xml")
 
 def detect_faces_opencv(image):
     # Convert the frames to grayscale
